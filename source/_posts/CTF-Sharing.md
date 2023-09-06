@@ -4,7 +4,6 @@ date:   2023-09-05 13:21:13 +0800
 categories: CTF Sharing
 author: w0rmhol3
 tags: CTF
-banner: https://github.com/w0rmhol3/w0rmhol3.github.io/blob/main/source/_img/SiagaCTF.jpg
 ---
 CTF or capture the flag is a hacking competition that participants race against time to solve as many challenges and gain as much points to win. There are mainly 2 types of CTF, `Jeopardy-Style` in which is the traditional challenge solving CTF, or `Attack-and-Defence Style` that competitors will hack into each other's system while patching their own vulnerable systems.
 
