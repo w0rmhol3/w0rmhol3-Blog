@@ -4,6 +4,8 @@ date:   2023-09-05 13:21:13 +0800
 categories: CTF Sharing
 author: w0rmhol3
 tags: CTF
+thumbnail: ![SiagaCTF](https://github.com/w0rmhol3/w0rmhol3.github.io/assets/91303166/efb05c35-046a-4e9a-bde2-9c6998ae5040)
+
 ---
 CTF or capture the flag is a hacking competition that participants race against time to solve as many challenges and gain as much points to win. There are mainly 2 types of CTF, `Jeopardy-Style` in which is the traditional challenge solving CTF, or `Attack-and-Defence Style` that competitors will hack into each other's system while patching their own vulnerable systems.
 
@@ -14,9 +16,6 @@ So the first experience of joining CTF was not really that fun as most of the ti
 As it was first time experience and finding interest in CTFs, I had then try to sharpen my skills before joining any further CTFs event. Kept in mind, not all CTF competitions are free, I did not want to spent money on losing competitions as I understand that my skillset are not good enough to solve much challenges. So After my diploma, I had continue my degree in Cybersecurity and learn more on general cybersecurity skills, in which makes me grow deep interest in `Web exploitations, OSINT, and Cryptography`. In 2022, I was lucky enough to be part of the first ever Malaysia Cybersecurity Camp held in Port Dickson, which had provided me to learn from seasoned professionals, network with cybersecurity enthusiast, and further enhanced my skills. I met a lot of people that had opened up my cybersecurity paths and had gained a lot of opportunity from the camp as well.
 
 After MCC, I had only started to learn more skills from `TryHackMe` and started playing `PicoCTF` and `HackTheBox`. I had then join my univeristy's Cybersecurity Club as a Challenge Creator in which provided me opportunity to understand how to create challenges for CTF. It was then, I had decided to started back playing CTF just to try out the improvement I had made throughout the years. I created a spontaneous team that also had the same passion in cybersecurity to try out the `UiTM CTF: iHack 2022`. The CTF consist of a qualifier round that teams must be in top 20 in order to be in the finals. I must say, my skillsets are still limited and my CTFs experience are not as rich as other competitors, but I just wanted to gain some experience in CTF. I solely focus on the Web Categories within this CTF and try to solve as much as possible. Although we did not make it to the final round, with the teamwork provided by my teammates, We had achieve quite satisfying result. I found that the difficulty of the challenges that I was able solve had increased which led me to certain motivation to learn more in the field. And it was from that point, I decided to take part in as much CTF as I can and gain more knowledge from the competition.  
-
-![SiagaCTF](https://github.com/w0rmhol3/w0rmhol3.github.io/assets/91303166/02b89c05-220b-459c-9a1e-19ab720d2812)
-
 
 Although I had missed out 2 years worth of CTFs, I find it amusing to be able to learn new skills while enjoying solving challenges. It is never too late to start your journey. My advice on advancing in Cybersecurity field is to try out things as earlier as you can, keep your motivation ongoing, and don't just learn from textbook as there are various methods for you to learn. While being a young one in the field, you may want to try playing CTFs if you have interest in Cybersecurity as the skillset that you may gain from there may be priceless.
 
