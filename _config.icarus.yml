@@ -117,6 +117,7 @@ navbar:
             url: https://github.com/ppoffice/hexo-theme-icarus
 # Page footer configurations
 footer:
+    author: w0rmhol3
     # Copyright text
     copyright: © Quack Quack beech
     # Links to be shown on the right of the footer section
