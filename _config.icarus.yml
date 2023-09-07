@@ -6,6 +6,7 @@ variant: cyberpunk
 logo: /img/logo.svg
 # Page metadata configurations
 head:
+    author: w0rmhol3
     #Add Website Name
     title: w0rmhol3 Blog
     # URL or path to the website's icon
