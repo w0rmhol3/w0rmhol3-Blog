@@ -1,7 +1,7 @@
 ---
 title: Sharing My Experience in CTF
 date:   2023-09-05 13:21:13 +0800
-categories: CTF Sharing
+categories: Sharing
 author: w0rmhol3
 tags: CTF
 cover: https://github.com/w0rmhol3/w0rmhol3.github.io/assets/91303166/01f101aa-194f-4f63-a522-45db7565a259
