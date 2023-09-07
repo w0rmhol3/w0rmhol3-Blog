@@ -7,7 +7,7 @@ logo: /img/logo.svg
 # Page metadata configurations
 head:
     # URL or path to the website's icon
-    favicon: /img/favicon.svg
+    favicon: https://github.com/w0rmhol3/w0rmhol3.github.io/assets/91303166/0f961e13-084a-478e-b52e-d73a746b3a4b
     # Web application manifests configuration
     # https://developer.mozilla.org/en-US/docs/Web/Manifest
     manifest:
