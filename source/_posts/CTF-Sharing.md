@@ -6,7 +6,7 @@ author: w0rmhol3
 tags: CTF
 cover: https://github.com/w0rmhol3/w0rmhol3.github.io/assets/91303166/01f101aa-194f-4f63-a522-45db7565a259
 ---
-CTF or capture the flag is a hacking competition that participants race against time to solve as many challenges and gain as much points to win. There are mainly 2 types of CTF, `Jeopardy-Style` in which is the traditional challenge solving CTF, or `Attack-and-Defence Style` that competitors will hack into each other's system while patching their own vulnerable systems.
+CTF or capture the flag is a hacking competition that participants race against time to solve as many challenges and gain as much points to win. There are mainly 2 types of CTF, `Jeopardy-Style` in which is the traditional challenge solving CTF, or `Attack-and-Defence Style` that competitors will hack into each other's system while patching their own vulnerable systems. <!--more-->
 
 Back in 2020, I was still in my last 2 semester of Software Engineering Diploma when Covid-19 had just striked. At that time, classes were just not that interesting and entertaining as everything had been converted into fully online mode. And it was at that time, one of my friends had introduced me to the local university CTF competition - `Battle Of Hackers (BOH)`, a Jeopardy Style CTF organized by APU. As the original physical CTF had been turned into a fully online CTF competition, it was the first time the event was held for free, meaning that there are no registration fees to join the competition. As someone that had not even touch any Linux Distros before, I just tried and join the CTF with some of my friends in my class.
 
