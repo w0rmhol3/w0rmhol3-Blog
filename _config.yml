@@ -1,11 +1,11 @@
-title: w0rmhol3 Blog
+title: Hexo
 subtitle: ''
 description: ''
 keywords: null
 author: w0rmhol3
 language: en
 timezone: ''
-url: https://www.linkedin.com/in/kelvintwl01
+url: http://example.com
 permalink: ':year/:month/:day/:title/'
 permalink_defaults: null
 pretty_urls:
