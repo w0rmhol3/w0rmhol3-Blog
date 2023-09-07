@@ -4,7 +4,7 @@ date: 2023-09-08 02:47:42
 categories: Sharing
 author: w0rmhol3
 tags: Conference
-cover:
+cover: https://github.com/w0rmhol3/w0rmhol3.github.io/assets/91303166/f5d06a0a-5d2a-4a1e-9039-9e5a5f27e62b
 ---
 On 26th and 27th August 2023, I've attended my first `HITBSec conference` in Phuket,Thailand. HITBSec Conf or the `Hack In The Box Security Conference` is an annual security event that security researchers and professionals around the world will come together to share their latest findings through research or experience. The conference was firsly founded in Malaysia, but then had evolved into a bigger scaled conference where it is held internationally in such that the conference held commonly at Amsterdam.
 
