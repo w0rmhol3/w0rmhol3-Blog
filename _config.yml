@@ -5,7 +5,7 @@ keywords: null
 author: w0rmhol3
 language: en
 timezone: ''
-url: http://example.com
+url: https://w0rmhol3.netlify.app
 permalink: ':year/:month/:day/:title/'
 permalink_defaults: null
 pretty_urls:
