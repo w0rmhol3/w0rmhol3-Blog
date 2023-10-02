@@ -53,17 +53,17 @@ Hence, I tried again and WALLA, the transfer is still accepted.
 ![Balance](https://github.com/w0rmhol3/w0rmhol3.github.io/assets/91303166/99636e91-e343-497c-8ba4-f6e076829c20)
 
 
-The balance will be in negative within the Test2 account. To exploit this system, we need a method to automate the amount transfer from Test2 account to the primary account. There are different methods that can achieve this in which can be creating a script that can non-stop creating transfer from account A to B, or use a tool. In this case, I used burpsuite to automate the process directly.
+The balance will be in `negative` within the Test2 account. To exploit this system, we need a method to automate the amount transfer from Test2 account to the primary account. There are different methods that can achieve this in which can be creating a script that can non-stop creating transfer from account A to B, or use a tool. In this case, I used `burpsuite to automate the process` directly.
 
 ![Burpsuite Intruder](https://github.com/w0rmhol3/w0rmhol3.github.io/assets/91303166/a0eb36e9-bc67-4de3-80fc-6f6408d4be12)
 
 
-All we need to do is intercept the traffic in which the transfer is made, and send it to intruder. As we just need to automate the transfer feature, we do not need to modify the payload. Hence, the payload can be inputted anywhere that does not affect the packet.
+All we need to do is intercept the traffic in which the transfer is made, and send it to `intruder`. As we just need to automate the transfer feature, we do not need to modify the payload. Hence, the payload can be inputted anywhere that does not affect the packet.
 
 ![Intruder](https://github.com/w0rmhol3/w0rmhol3.github.io/assets/91303166/978dbb78-1fcc-4e6f-a922-dc9b5457bda1)
 
 
-Going to the payload tab, we need to change the payload type to “Null payload” as we do not need to modify anything within the packet. Last thing to set is to change the Payload settings to “Continue indefinitely” to allow the transfer to keep on going without stop. Once all the settings are done, we can click on start attack.
+Going to the payload tab, we need to change the payload type to `“Null payload”` as we do not need to modify anything within the packet. Last thing to set is to change the Payload settings to `“Continue indefinitely”` to allow the transfer to keep on going without stop. Once all the settings are done, we can click on start attack.
 
 ![Intruder3](https://github.com/w0rmhol3/w0rmhol3.github.io/assets/91303166/5b2e2073-dff2-46e9-ae01-03deecaa9c3f)
 
@@ -83,12 +83,12 @@ As for the Test2 account that keeps on transferring its debit to the primary acc
 ![Intruder4](https://github.com/w0rmhol3/w0rmhol3.github.io/assets/91303166/4210d825-d6a1-4de2-aab2-243a76536ba2)
 
 
-The exploit does not stop here, Once you get the negative value of the transferring account to -1000 balance, you can keep on transferring 999, at -10,000 you can  transfer 9,999, and getting to -100,000, you can keep on transferring 99,999. So on burpsuite, all we need to do is to change the transfer amount within intruder and start the attack again with the same configuration mentioned previously.
+The exploit does not stop here, once you get the negative value of the transferring account to `-1000 balance`, you can keep on transferring `999`, at `-10,000` you can  transfer `9,999`, and getting to `-100,000`, you can keep on transferring `99,999`. So on burpsuite, all we need to do is to `change the transfer amount` within intruder and start the attack again with the same configuration mentioned previously.
 
 ![Transfer Limit](https://github.com/w0rmhol3/w0rmhol3.github.io/assets/91303166/01d89daf-a8e6-4af4-8d17-3cad28378ffe)
 
 
-Keep in mind, the limit per transfer is only at 100,000 or else even using burpsuite, the amount will not be increased. So we can modify the transfer amount to as much as the limit only.
+Keep in mind, the `limit per transfer is only at 100,000` or else even using burpsuite, the amount will not be increased. So we can modify the transfer amount to as much as the limit only.
 
 ![Flag](https://github.com/w0rmhol3/w0rmhol3.github.io/assets/91303166/51e1b8be-24a5-439b-8c74-7a49329496df)
 
