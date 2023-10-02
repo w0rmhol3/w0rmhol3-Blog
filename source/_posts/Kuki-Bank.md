@@ -1,5 +1,5 @@
 ---
-title: Kuki-Bank
+title: SKR CTF Web Challenge\:\ Kuki-Bank
 date: 2023-10-02 16:28:18
 author: w0rmhol3
 categories: Write-Up
