@@ -5,7 +5,7 @@ author: w0rmhol3
 categories: Write-Up
 tags: Web CTF
 ---
-SKR CTF is a good platform to practice CTF challenges and test out cybersecurity knowledge. The challenge done is a medium level web challenge called Kuki Bank.
+SKR CTF is a good platform to practice CTF challenges and test out cybersecurity knowledge. The challenge done is a medium level web challenge called Kuki Bank. <!--more-->
 `titleimg1`
 From the challenge it can be seend that the goal is to exploit a simple banking website that is under beta testing, with every created account is given RM100 for free. This challenge had given a hint for the challenger to ease its understanding.
 `hintimg`
