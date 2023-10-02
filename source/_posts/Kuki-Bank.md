@@ -9,7 +9,7 @@ SKR CTF is a good platform to practice CTF challenges and test out cybersecurity
 
 ![Kuki-Bank](https://github.com/w0rmhol3/w0rmhol3.github.io/assets/91303166/41008544-c4a6-4acc-8c97-d80160fbba42)
 
-From the challenge it can be seend that the goal is to exploit a simple banking website that is under beta testing, with every created account is given RM100 for free. This challenge had given a hint for the challenger to ease its understanding.
+From the challenge it can be seen that the goal is to exploit a simple banking website that is under beta testing, with every created account is given RM100 for free. This challenge had given a hint for the challenger to ease its understanding.
 
 ![Hint](https://github.com/w0rmhol3/w0rmhol3.github.io/assets/91303166/a4feb068-8ad4-4b80-9e1c-abdb2bc4a572)
 
