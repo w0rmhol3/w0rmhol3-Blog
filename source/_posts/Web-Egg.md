@@ -34,7 +34,7 @@ The solution done during the competition was through scripting:
 import requests as request
 
 def overflow(n):
-    url = "https://petronasgraduate-quantum.chals.io/?egg={}".format("A".n)
+    url = "https://petronasgraduate-quantum.chals.io/?egg={}".format("A"*n)
     r = request.get(url)
     print(r.text)
 ```
