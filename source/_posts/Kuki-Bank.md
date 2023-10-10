@@ -4,6 +4,7 @@ date: 2023-10-02 16:28:18
 author: w0rmhol3
 categories: Write-Up
 tags: Web CTF
+cover: https://github.com/w0rmhol3/w0rmhol3.github.io/assets/91303166/814ca7f1-c5fc-4c64-8670-3d0a3aacc295
 ---
 SKR CTF is a good platform to practice CTF challenges and test out cybersecurity knowledge. The challenge done is a medium level web challenge called Kuki Bank. <!--more-->
 
