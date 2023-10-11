@@ -6,7 +6,7 @@ categories: Write-Up
 tags: Web CTF
 cover: https://github.com/w0rmhol3/w0rmhol3.github.io/assets/91303166/c598f253-ecaf-46b7-98fb-fdedd2c1aedc
 ---
-Petronas CTF 2023 is a local CTF organized by Petroliam Nasional Berhad Malaysia. The CTF was held on 9th and 10th October 2023, in Kuala Lumpur Convention Center for 2 days with an elimination round and a top 25 final round. The challenges were quite interesting and majority are great quality challenge. In this web challenge an featureless website was provided. <!--more-->
+Petronas CTF 2023 is a local CTF organized by Petroliam Nasional Berhad Malaysia. The CTF was held on 9th and 10th October 2023, in Kuala Lumpur Convention Center for 2 days with an elimination round and a top 25 final round. The challenges were quite interesting and majority are great quality challenge. In this web challenge, a featureless website was provided. <!--more-->
 
 ![Website](https://github.com/w0rmhol3/w0rmhol3.github.io/assets/91303166/3f3a8670-5fa9-4a2e-9b42-bd04e469dfa1)
 
