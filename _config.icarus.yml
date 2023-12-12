@@ -251,9 +251,9 @@ widgets:
             Linkedin:
                 icon: fab fa-linkedin
                 url: https://linkedin.com/in/kelvintwl01
-            #Twitter:
-                #icon: fab fa-twitter
-                #url: https://twitter.com
+            Twitter:
+                icon: fab fa-twitter
+                url: https://twitter.com/w0rmhol3_
             #Dribbble:
                 #icon: fab fa-dribbble
                 #url: https://dribbble.com
