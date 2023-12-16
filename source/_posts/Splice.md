@@ -1,7 +1,7 @@
 ---
 title: 'Wargames2023 CTF MISC Challenge: Splice'
 date: 2023-12-17 00:56:09
-categories: Sharing
+categories: Write-Up
 author: w0rmhol3
 tags: CTF
 cover: https://github.com/w0rmhol3/w0rmhol3.github.io/assets/91303166/67dc9b80-b12e-4729-a99e-9d1759dfcec6
