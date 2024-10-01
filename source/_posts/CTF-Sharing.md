@@ -4,7 +4,7 @@ date:   2023-09-05 13:21:13 +0800
 categories: Sharing
 author: w0rmhol3
 tags: CTF
-cover: https://github.com/w0rmhol3/w0rmhol3.github.io/assets/91303166/01f101aa-194f-4f63-a522-45db7565a259
+cover: https://github.com/w0rmhol3/w0rmhol3-Blog/blob/main/source/_img/UTARCTF.jpg
 ---
 CTF or capture the flag is a hacking competition that participants race against time to solve as many challenges and gain as much points to win. There are mainly 2 types of CTF, `Jeopardy-Style` in which is the traditional challenge solving CTF, or `Attack-and-Defence Style` that competitors will hack into each other's system while patching their own vulnerable systems. <!--more-->
 
@@ -18,7 +18,7 @@ After MCC, I had only started to learn more skills from `TryHackMe` and started 
 
 As I gain experience and work with more people, I found my interest, passion, and skills growing along the way. In mid 2023, I had participated `Siber Siaga 2023: Code Combat CTF` under Team Nuts and had earned final placement of Vice Champion. This is the highest prize gained as of my whole CTF journey, in which special thanks to my team members that motivates and helped a lot throughout the CTF. As long as we don't give up, we can make the impossible possible.
 
-![Siber Siaga 2023: Code Combat CTF](https://github.com/w0rmhol3/w0rmhol3.github.io/assets/91303166/195a6000-b1af-4f3b-af00-6cc316507da6)
+![Siber Siaga 2023: Code Combat CTF](https://github.com/w0rmhol3/w0rmhol3-Blog/blob/main/source/_img/SiagaCTF.jpg)
 
 Although I had missed out 2 years worth of CTFs, I find it amusing to be able to learn new skills while enjoying solving challenges. It is never too late to start your journey. My advice on advancing in Cybersecurity field is to try out things as earlier as you can, keep your motivation ongoing, and don't just learn from textbook as there are various methods for you to learn. While being a young one in the field, you may want to try playing CTFs if you have interest in Cybersecurity as the skillset that you may gain from there may be priceless.
 

@@ -4,16 +4,16 @@ date: 2023-10-11 00:35:22
 author: w0rmhol3
 categories: Write-Up
 tags: Web CTF
-cover: https://github.com/w0rmhol3/w0rmhol3.github.io/assets/91303166/c598f253-ecaf-46b7-98fb-fdedd2c1aedc
+cover: https://github.com/w0rmhol3/w0rmhol3-Blog/blob/main/source/_img/PetronasCTF/Challenge6/egg.jpg
 ---
 Petronas CTF 2023 is a local CTF organized by Petroliam Nasional Berhad Malaysia. The CTF was held on 9th and 10th October 2023, in Kuala Lumpur Convention Center for 2 days with an elimination round and a top 25 final round. The challenges were quite interesting and majority are great quality challenge. In this web challenge, a featureless website was provided. <!--more-->
 
-![Website](https://github.com/w0rmhol3/w0rmhol3.github.io/assets/91303166/3f3a8670-5fa9-4a2e-9b42-bd04e469dfa1)
+![Website](https://github.com/w0rmhol3/w0rmhol3-Blog/blob/main/source/_img/PetronasCTF/Challenge6/Website.png)
 
 
 As you can see there's literally nothing but a string `You are not near the egg yet`.
 
-![Source](https://github.com/w0rmhol3/w0rmhol3.github.io/assets/91303166/a9de97ec-ec84-4764-8cb6-80ddd88cf650)
+![Source](https://github.com/w0rmhol3/w0rmhol3-Blog/blob/main/source/_img/PetronasCTF/Challenge6/Source.png)
 
 
 I had even try to see if there's anything to be revealed within the source code but there's nothing at all. I had tried to execute command injection within the url by going through different parameters in such as `https://petronasgraduate-quantum.chals.io/?command=(ls)` and had tried going through XSS, SSTI, Header manipulation and other possible exploitation. In the end, the solution found to exploit this website is to run command injection and overflow it. 
@@ -26,7 +26,7 @@ https://petronasgraduate-quantum.chals.io/?egg=\x48\x31\xc0\x50\x48\x89\xe2\x48\
 
 ^The injection used
 
-![Solution](https://github.com/w0rmhol3/w0rmhol3.github.io/assets/91303166/c96ac578-0542-4aac-903a-c3d2dad17526)
+![Solution](https://github.com/w0rmhol3/w0rmhol3-Blog/blob/main/source/_img/PetronasCTF/Challenge6/Solution.png)
 
 
 This solution was not done during the competition and was only found that it works after the competition had ended.
@@ -44,7 +44,7 @@ def overflow(n):
 
 ^Script Used
 
-![Solution2](https://github.com/w0rmhol3/w0rmhol3.github.io/assets/91303166/d5d04429-4171-47be-b1b1-d68d850d57fd)
+![Solution2](https://github.com/w0rmhol3/w0rmhol3-Blog/blob/main/source/_img/PetronasCTF/Challenge6/Solution2.png)
 
 
 Then running overflow(6000), I had retrieved the flag by overflowing the system.
