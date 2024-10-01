@@ -119,7 +119,7 @@ navbar:
 footer:
     author: w0rmhol3
     # Copyright text
-    copyright: © Quack Quack beech
+    copyright: © w0rmhol3 2024
     # Links to be shown on the right of the footer section
     #links:
         #Creative Commons:
@@ -236,7 +236,7 @@ widgets:
         # Author's current location
         location: Pahang, Malaysia
         # URL or path to the avatar image
-        avatar: https://shrturl.app/dVAjPh
+        avatar: https://github.com/w0rmhol3/w0rmhol3-Blog/blob/main/source/_img/pfp.jpg?raw=true
         # Whether show the rounded avatar image
         avatar_rounded: true
         # Email address for the Gravatar
