@@ -6,7 +6,7 @@ categories: Write-Up
 tags: CTF
 cover: https://github.com/w0rmhol3/w0rmhol3-Blog/blob/main/source/_img/HackTheBox/PermX/Cover.png?raw=true
 ---
-So, I haven’t been playing HTB for quite sometime, and I finally had some motivation (or mood) to try out some boxes. So here is my writeup for the `HTB seasonal machine: PermX`.
+So, I haven’t been playing HTB for quite sometime, and I finally had some motivation (or mood) to try out some boxes. So here is my writeup for the `HTB seasonal machine: PermX`.<!--more-->
 
 ![PermX Box](https://github.com/w0rmhol3/w0rmhol3-Blog/blob/main/source/_img/HackTheBox/PermX/PermX_Box.png?raw=true)
 
