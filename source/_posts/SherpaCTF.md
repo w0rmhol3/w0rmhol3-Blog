@@ -651,7 +651,7 @@ if __name__ == "__main__":
 
 What I learned: A new vulnerability, XS Leak, understanding what is object leak and how it works. Also beat a new record for hours per challenge...(18 now).
 
-![Some pic of them bois](https://github.com/w0rmhol3/w0rmhol3-Blog/blob/main/source/_img/SherpaCTF/sherpa_bois?raw=true)
+![Some pic of them bois](https://github.com/w0rmhol3/w0rmhol3-Blog/blob/main/source/_img/SherpaCTF/sherpa_bois.jpg?raw=true)
 
 # Conclusion
 SherpaCTF 2024 was really fun. Staying up all night with my bros, chill with other participants, meet and greet with all the legends. I met new people, compete with them, die trying to get the first blood for web, and also proudly presented the challenge solved in front of everyone. This is one of the greater experience I get as a CTF player in Malaysia. 
