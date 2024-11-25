@@ -409,7 +409,7 @@ After dinner time, the crew decided to drop some hint (XS Leak, a legendary web 
 
 So yea, I followed the hints given and I suddenly remembered another legend, Zeyu that had given multiple speech and trainings regarding web attacks. So I look into [XS Leak by Zeyu](https://infosec.zeyu2001.com/2023/from-xs-leaks-to-ss-leaks) and I found a few resources that can help me understand the vulnerability more.
 
-*Note: Read the blog, its freaking interesting and useful, if you want a video version, here:* [https://www.youtube.com/watch?v=SEVdfk0vTCM](https://www.youtube.com/watch?v=SEVdfk0vTCM)
+Note: Read the blog, its freaking interesting and useful, if you want a video version, here:* [https://www.youtube.com/watch?v=SEVdfk0vTCM](https://www.youtube.com/watch?v=SEVdfk0vTCM)
 
 So based on the explanations I kinda got everything I need. To explain abit, its basically injecting the tags and attribute not to achieve JavaScript injections, but to leak out data from forbidden pages, like in this case, using the form field to leak out the flag in /oshaoshaflagfinder.
 
@@ -427,7 +427,7 @@ So what this exploit does, is that when injected, the object will hold the data 
 
 ![/comment endpoint](https://github.com/w0rmhol3/w0rmhol3-Blog/blob/main/source/_img/SherpaCTF/image%207.png?raw=true)
 
-*note: see the huge empty comment field? Thats where your <object> is injected*
+Note: see the huge empty comment field? Thats where your <object> is injected
 
 In the process of this challenge, after injecting the script, you report the page by sending the whole URL to the reporting page at “/osha-see” endpoint. 
 
@@ -554,7 +554,7 @@ So, brute for `!_{}24ABCDEFGHIJKLMNOPQRSTUVWXYZ`
 
 Ok so my scripting skills is not good, I do this manually. But after the CTF, our buddy, mr.vicevirus had given the `script to solve` the challenge.
 
-*Note: solution script requires your setup of ngrok and is written in flask.*
+Note: solution script requires your setup of ngrok and is written in flask.
 
 ```python
 # This solver script is used to solve the "Oshawott As A Service" challenge, using object tag leak to find the flag character by character.
