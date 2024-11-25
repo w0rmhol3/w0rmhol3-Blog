@@ -6,11 +6,11 @@ author: w0rmhol3
 tags: CTF
 cover: https://raw.githubusercontent.com/w0rmhol3/w0rmhol3-Blog/main/source/_img/SherpaCTF/sherpa_logo.png?raw=true
 ---
-SherpaCTF 2024 was the only CTF that I had joined in 2024, and to my surprise, also my first 24 hours on-site CTF. Being a graduate had decreased the opportunity for me participate in physical CTFs, but finally Sherpasec had given me one CTF to play this year. The organizers of this CTF is the members from Sherpasec community, which consists of students, fresh graduates, and also seasoned experts. Aside from that, the challenge creators team are built from seasoned players that had mad experience, some are the challenge creators of wargames.my, and some of them are crazy talented students, and every single one of them created challenges based on their expertise. It was one of the most challenging and fun CTF that I had joined <!--more--> 
+`SherpaCTF 2024` was the only CTF that I had joined in 2024, and to my surprise, also my first 24 hours on-site CTF. Being a graduate had decreased the opportunity for me participate in physical CTFs, but finally Sherpasec had given me one CTF to play this year. The organizers of this CTF is the members from Sherpasec community, which consists of students, fresh graduates, and also seasoned experts. Aside from that, the challenge creators team are built from seasoned players that had mad experience, some are the `challenge creators of wargames.my`, and some of them are crazy talented students, and every single one of them created challenges based on their expertise. It was one of the most challenging and fun CTF that I had joined! <!--more--> 
 
 This CTF had included an element from hackathons, in which after the CTF had ended, instead of submitting your writeup, you need to do a presentation of 2 challenges you solved of your choice. This is a different experience as compared to other CTFs, where you just cincai settle your writeup and just ~end up getting disqualified~ submit it.
 
-Our team, M53_TeaBag, had not only secured the Champion Title for the Open category, but also the best creative presentation award. We boys literally went from being the last team to set up our laptops for the CTF, to winning them breads :D
+Our team, `M53_TeaBag`, had not only secured the `Champion Title` for the Open category, but also the `best creative presentation award`. We boys literally went from being the last team to set up our laptops for the CTF, to winning them breads :D
 
 So here I go, sharing my writeup for the challenges I solved SherpaCTF2024.
 
@@ -27,7 +27,7 @@ This AI showcases its skill to detect fake ai images. Initially I have no idea o
 Initially i found the challenge creator’s [linkedin](https://www.linkedin.com/in/roheender-sahota/) post regarding this [blog](https://huggingface.co/MaanVad3r/DeepFake-Detector). 
 
 
-Everyone including myself was trying to setup tensorflow in order to run the AI. But my group member made me realized, if its the same tool that was posted about, there shouldn’t be much different, in which we don’t think there’s a way for the tool to output the flag.
+Everyone including myself was trying to setup `tensorflow` in order to run the AI. But my group member made me realized, if its the same tool that was posted about, there shouldn’t be much different, in which we don’t think there’s a way for the tool to output the flag.
 
 Hence I start looking into how to view the datasets within the h5 file. I gpt-ed a lot. A LOT. But uh, since it’s company’s property, I just used temporary chat mode so that they don’t find out I spammed their premium answer giver.
 
@@ -536,7 +536,7 @@ So, brute for `!_{}24ABCDEFGHIJKLMNOPQRSTUVWXYZ`
 
 1. Inject the payload at index.
 
-![Inject payload](image%2011.png)
+![Inject payload](https://github.com/w0rmhol3/w0rmhol3-Blog/blob/main/source/_img/SherpaCTF/image%2011.png?raw=true)
 
 2. It will redirect you to the comment endpoint. After triggering the payload like this:
 
