@@ -103,7 +103,7 @@ evbunpack 'World I.exe' unpack #unpack is just the output file name i set btw
 
 After having the application unpacked, you will be introduced with all the game files, including the ones that affects the game. There is a `/data` folder that can be found, which consists of all the .json files that can affect the gameplay.
 
-![/data folder](https://github.com/w0rmhol3/w0rmhol3-Blog/blob/main/source/_img/Wargames/2024/GamePwn/Date-Folder.png?raw=true)
+![/data folder](https://github.com/w0rmhol3/w0rmhol3-Blog/blob/main/source/_img/Wargames/2024/GamePwn/Data-Folder.png?raw=true)
 
 This is where you can have your fun. You can modify any logical data within the json file that relates to the game experience into your liking to solve this challenge. You can tamper enemy health, by changing it to 1 hp so that u can 1 hit them with any damage, and they still die; change your weapon stats to buff up your character stats; 
 
