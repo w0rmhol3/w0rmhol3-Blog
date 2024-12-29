@@ -86,7 +86,7 @@ For this part of the challenge, i ran another script before, that almost crashed
 My initial solution = reveal everything + grep for flag.
 
  So i’ll just give you the script that actually look into the layer that has the flag.
-import.py:
+export.py:
 
 ```python
 import h5py
@@ -256,7 +256,7 @@ Data:
 
 So you think, hmm what did i just get? a bunch of decimal points, what to do?
 
-The final step of this challenge is to convert the decimal points into ascii using numpy library. GPT POWERRRRR
+The final step of this challenge is to round up the numbers and convert the decimal points into ascii using numpy library. GPT POWERRRRR
 
 round.py:
 
@@ -427,7 +427,7 @@ So what this exploit does, is that when injected, the object will hold the data 
 
 ![/comment endpoint](https://github.com/w0rmhol3/w0rmhol3-Blog/blob/main/source/_img/SherpaCTF/image%207.png?raw=true)
 
-Note: see the huge empty comment field? Thats where your <object> is injected
+Note: see the huge empty comment field? Thats where your `object tag` is injected
 
 In the process of this challenge, after injecting the script, you report the page by sending the whole URL to the reporting page at “/osha-see” endpoint. 
 
