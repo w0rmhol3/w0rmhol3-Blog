@@ -6,7 +6,7 @@ author: w0rmhol3
 tags: CTF
 cover: https://github.com/w0rmhol3/w0rmhol3-Blog/blob/main/source/_img/Wargames/2024/GamePwn/pay2win.jpg?raw=true
 ---
-Wargames is an annual year end CTF organized by WGMY team from Malaysia. This year, they bring in some special categories: `Post Quantum Crptography`,  `Block Chain`, as well as `Game Pwn`. I did not solve the first 2 categories, but i manage to have fun and find the flag for one of the `Game Pwn Challenges - World 1`.
+Wargames is an annual year end CTF organized by WGMY team from Malaysia. This year, they bring in some special categories: `Post Quantum Crptography`,  `Block Chain`, as well as `Game Pwn`. I did not solve the first 2 categories, but i manage to have fun and find the flag for one of the `Game Pwn Challenges - World 1`. <!--more--> 
 
 ![World 1 Game](https://github.com/w0rmhol3/w0rmhol3-Blog/blob/main/source/_img/Wargames/2024/GamePwn/World1-exe.png?raw=true)
 
