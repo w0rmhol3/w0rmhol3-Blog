@@ -79,7 +79,7 @@ After defeating the final boss. An npc and a floating blue thingy will spawn. Fi
 
 Then, interact with the floating blue thingy, and the first thing it does is to ask for a type of password. So, just input the decoded value in, and it will present you with a QR code. The QR code given is the final part of the flag.
 
-![QR Decode](https://github.com/w0rmhol3/w0rmhol3-Blog/blob/main/source/_img/Wargames/2024/GamePwn/QR-Code.png?raw=true)
+![QR Decode](https://github.com/w0rmhol3/w0rmhol3-Blog/blob/main/source/_img/Wargames/2024/GamePwn/QR-code.png?raw=true)
 
 flag: wgmy{5ce7d7a7140ebabf5cd43effd3fcaac2}
 
