@@ -4,10 +4,10 @@ date: 2025-02-20 01:17:29
 categories: Sharing
 author: w0rmhol3
 tags: Active Directory
-cover: 
+cover: https://github.com/w0rmhol3/w0rmhol3-Blog/blob/main/source/_img/ActiveDirectory/Introduction-To-Active-Directory/Banner.png?raw=true
 ---
 
-As I am focusing on studying Active Directory for the past few months, I thought that I can share a bit on what I had learnt. I had went through different resources and currently pursuing my CRTP certification, hence the grind. So, lets look into some Active Directory fundamentals.
+As I am focusing on studying Active Directory for the past few months, I thought that I can share a bit on what I had learnt. I had went through different resources and currently pursuing my CRTP certification, hence the grind. So, lets look into some Active Directory fundamentals.<!--more-->
 
 ## Active Directory Security: Understanding The Structure, Enumeration, and Attacks
 Active Directory (AD) is a critical component of Windows network infrastructure, enabling centralised management of users, computers, policies, and resources. However, due to its complexity and default configurations, AD environments are often misconfigured, making them a prime target for attackers.
@@ -42,16 +42,16 @@ Even without additional privileges, a `basic domain user` can enumerate a substa
 This enumeration process is crucial in assessing security weaknesses, identifying overly permissive policies, and uncovering potential privilege escalation paths.
 
 ## Common Active Directory Attacks
-Misconfigurations and poor security practices make AD environments vulnerable to various attacks. Below are some of the most common AD attack techniques:
+`Misconfigurations and poor security practices` make AD environments `vulnerable` to various attacks. Below are some of the most common AD attack techniques:
 
-- Kerberoasting / ASREPRoasting – Extracting service account credentials from Kerberos tickets.
-- NTLM Relaying – Intercepting authentication attempts and relaying them to gain access.
-- Network Traffic Poisoning – Exploiting network protocols to capture credentials.
-- Password Spraying – Trying common passwords across multiple accounts to bypass lockout policies.
-- Kerberos Delegation Abuse – Exploiting accounts with excessive delegation rights.
-- Domain Trust Abuse – Leveraging trust relationships to move laterally.
-- Credential Theft – Extracting credentials from memory or disk.
-- Object Control – Exploiting weak ACLs to manipulate AD objects.
+- `Kerberoasting` / ASREPRoasting – Extracting service account credentials from Kerberos tickets.
+- `NTLM Relaying` – Intercepting authentication attempts and relaying them to gain access.
+- `Network Traffic Poisoning` – Exploiting network protocols to capture credentials.
+- `Password Spraying` – Trying common passwords across multiple accounts to bypass lockout policies.
+- `Kerberos Delegation Abuse` – Exploiting accounts with excessive delegation rights.
+- `Domain Trust Abuse` – Leveraging trust relationships to move laterally.
+- `Credential Theft` – Extracting credentials from memory or disk.
+- `Object Control` – Exploiting weak ACLs to manipulate AD objects.
 Understanding these attack techniques is essential for both offensive security professionals and defenders aiming to secure AD environments.
 
 ## Active Directory Structure
@@ -62,9 +62,9 @@ AD follows a `hierarchical tree structure`, with the largest unit called a Fores
 `Organizational Units (OUs)` – Containers within a domain that store objects and group policies.
 `Objects` – The fundamental data units, such as users, computers, and groups.
 
-[HIERACHY IMAGE]
-Here's another view of what it looks like
-[LAPTOP VIEW]
+![Hierachy View](https://github.com/w0rmhol3/w0rmhol3-Blog/blob/main/source/_img/ActiveDirectory/Introduction-To-Active-Directory/Hierachy.png?raw=true)
+Here's another view of what it looks like:
+![File System View](https://github.com/w0rmhol3/w0rmhol3-Blog/blob/main/source/_img/ActiveDirectory/Introduction-To-Active-Directory/File-System.png?raw=true)
 
 ## Active Directory Trust Relationships
 Trust relationships define how authentication flows between different domains and trees within an AD forest. These relationships determine whether users from one domain can access resources in another.
@@ -77,7 +77,7 @@ Trust relationships define how authentication flows between different domains an
 - Parent-Child Trust – A two-way transitive trust between a parent and a child domain.
 - Tree Root Trust – A two-way transitive trust between trees within a forest.
 
-[TRUST IMAGE]
+![Trust Relation](https://github.com/w0rmhol3/w0rmhol3-Blog/blob/main/source/_img/ActiveDirectory/Introduction-To-Active-Directory/Trust-Relation.png?raw=true)
 
 ## Foothold Enumeration in AD
 Once a foothold is gained within an AD environment, key information should be gathered to identify potential escalation paths:
@@ -134,7 +134,7 @@ Add-WindowsCapability -Name Rsat.ActiveDirectory.DS-LDS.Tools~~~~0.0.1.0 –Onli
 ```
 
 ## The Power of NT AUTHORITY\SYSTEM
-The NT AUTHORITY\SYSTEM account has the highest level of privilege on a Windows machine, exceeding that of local administrators. It can:
+The `NT AUTHORITY\SYSTEM account` has the highest level of privilege on a Windows machine, exceeding that of local administrators. It can:
 
 - Run most Windows services
 - Impersonate computer accounts on a domain-joined host
