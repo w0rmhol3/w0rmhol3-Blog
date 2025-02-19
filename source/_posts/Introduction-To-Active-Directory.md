@@ -25,6 +25,7 @@ In this blog, I will provide an introduction to the structure of AD, discuss cer
 - Servers
 - Workstations
 - Domain trusts
+
 Despite its essential role in enterprise networks, AD is not secure by default. Misconfigurations can lead to significant vulnerabilities that attackers can exploit.
 
 ## Active Directory Enumeration
@@ -39,6 +40,7 @@ Even without additional privileges, a `basic domain user` can enumerate a substa
 - Kerberos Delegation – Identify accounts with unconstrained delegation.
 - Domain Trusts – Map relationships between domains.
 - Access Control Lists (ACLs) – Examine permissions and privilege assignments.
+
 This enumeration process is crucial in assessing security weaknesses, identifying overly permissive policies, and uncovering potential privilege escalation paths.
 
 ## Common Active Directory Attacks
@@ -52,6 +54,7 @@ This enumeration process is crucial in assessing security weaknesses, identifyin
 - `Domain Trust Abuse` – Leveraging trust relationships to move laterally.
 - `Credential Theft` – Extracting credentials from memory or disk.
 - `Object Control` – Exploiting weak ACLs to manipulate AD objects.
+
 Understanding these attack techniques is essential for both offensive security professionals and defenders aiming to secure AD environments.
 
 ## Active Directory Structure
@@ -62,7 +65,7 @@ AD follows a `hierarchical tree structure`, with the largest unit called a Fores
 `Organizational Units (OUs)` – Containers within a domain that store objects and group policies.
 `Objects` – The fundamental data units, such as users, computers, and groups.
 
-![Hierachy View](https://github.com/w0rmhol3/w0rmhol3-Blog/blob/main/source/_img/ActiveDirectory/Introduction-To-Active-Directory/Hierachy.png?raw=true)
+![Hierachy View (from HTB)](https://github.com/w0rmhol3/w0rmhol3-Blog/blob/main/source/_img/ActiveDirectory/Introduction-To-Active-Directory/Hierachy.png?raw=true)
 Here's another view of what it looks like:
 ![File System View](https://github.com/w0rmhol3/w0rmhol3-Blog/blob/main/source/_img/ActiveDirectory/Introduction-To-Active-Directory/File-System.png?raw=true)
 
@@ -88,6 +91,7 @@ Once a foothold is gained within an AD environment, key information should be ga
 - Object ACLs
 - Group Policy Objects (GPOs)
 - Remote access rights
+
 Weak configurations, such as improper use of jump hosts or misconfigured Citrix servers, can provide opportunities for lateral movement and privilege escalation.
 
 ## AD Privileges and Rights
