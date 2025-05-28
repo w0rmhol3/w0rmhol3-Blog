@@ -4,24 +4,24 @@ date: 2025-05-28 15:51:12
 categories: Write-Up
 author: w0rmhol3
 tags: CTF
-cover: https://github.com/w0rmhol3/w0rmhol3-Blog/blob/main/source/_img/HITB.jpeg?raw=true
+cover: https://github.com/w0rmhol3/w0rmhol3-Blog/blob/main/source/_img/HTB2025/HTB.jpg?raw=true
 ---
-We're back at it with another CTF writeup. As now I'm a working professional, I'm eligible to take part in the `HTB Global Cyber Skill Benchmark 2025` under Team ProCheckUp. In this CTF, we were placed 141/796 within the competition. It's actually quite impressive, considering only like 5 of us are playing the CTF. I had the the chance to solve challenges of different categories (ML,RE,Forensics,ICS,Crypto) but I won't be covering everything in this writeup. Here are some of the challenges I found interesting. <!--more-->
+We're back at it with another CTF writeup. As now I'm a working professional, I'm eligible to take part in the `HTB Global Cyber Skill Benchmark 2025` under Team ProCheckUp. In this CTF, we were placed 141/796 within the competition. It's actually quite impressive, considering only like 5 of us are playing the CTF. I had the the chance to solve challenges of different categories (ML,RE,Forensics,ICS,Crypto) but I won't be covering everything in this writeup. Here are some of the challenges I found interestingly fun. <!--more-->
 
-![HTB Cert]()
+![HTB Cert](https://github.com/w0rmhol3/w0rmhol3-Blog/blob/main/source/_img/HTB2025/HTB_Cert.png?raw=true)
 
 # ML: UPLINK ARTIFACTS
 This challenge falls under the Machine Learning category. It presents a CSV file with a bunch of floating numbers and thats about it. So knowing it's ML challenge, it has something to do with the floats, which is either rounding up and convert it into text, or graph plotting (Yes, graph plotting it is). So, after trying out the first approach to convert the content to text, which of course didn't work, I went to graph plotting method. One of the most useful library for this use case in python is the [Python pandas](https://pandas.pydata.org/) library that mainly used for data analysis, that allows data manipulation, and [matplotlib](https://matplotlib.org/stable/tutorials/pyplot.html) which has the graph plotting feature.
 
 This challenge is a bunch of trial and error on the graph plotting. By scripting out (with help of some AI) different views and type of data visualizing methods, I was able to get an idea of which approach I can take.
 
-![Data Visualization 1]()
+![Data Visualization 1](https://github.com/w0rmhol3/w0rmhol3-Blog/blob/main/source/_img/HTB2025/Data_Visualization_1.png?raw=true)
 
-![Data Visualization 2]()
+![Data Visualization 2](https://github.com/w0rmhol3/w0rmhol3-Blog/blob/main/source/_img/HTB2025/Data_Visualization_2.png?raw=true)
 
 As you can see on the graph generated, The red dots assembles a squarish shape, which gives me an idea that It might not be plaintext directly for the flag, but a QR code embedded. After noticing that, I start to only focus on the red dots, which were identified as `'label 1' floats value` within the CSV file. I then proceed to plot the graph with `only label 1's value` and ignore the rest and it got me a QR, but not scannable yet.
 
-![QR Unscannable]()
+![QR Unscannable](https://github.com/w0rmhol3/w0rmhol3-Blog/blob/main/source/_img/HTB2025/QR_Unscannable.png?raw=tru)
 
 I know everything was correct, just need to make it scannable and then we're done. So I quickly use AI to improve the script by rounding up the values and rendering it to make it scannable.
 
@@ -82,14 +82,14 @@ print(f"Y range: [{y_min}, {y_max}]")
 ```
 
 Output:
-![Final QRCode]()
+![Final QRCode](https://github.com/w0rmhol3/w0rmhol3-Blog/blob/main/source/_img/HTB2025/Final_QR.png?raw=true)
 
 `Flag: HTB{clu5t3r_k3y_l34k3d}`
 
 # RE: TINYPLATFORMER
 I don't normally look at reverse engineering, cuz I know I'm bad at it. BUT, special scenario like if its mobile reversing or `GAME HACKING`, then we go! This challenge provide players with a `no extension file` named `TinyPlatformer`. So quickly i just went to check the file type, x64 executable, so I just run and see what it is before actually working on the challenge. It's basically a platformer game, that requires the player to collect the coins within a short period of time to pass the level.
 
-![TinyPlatformer]()
+![TinyPlatformer](https://github.com/w0rmhol3/w0rmhol3-Blog/blob/main/source/_img/HTB2025/TinyPlatformer.png?raw=true)
 
 But after level 1, its impossible to pass level 2 (idk...maybe skill issue). So I just close the game and only now I notice that it was built through PyGame:
 
