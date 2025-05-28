@@ -434,14 +434,14 @@ COLLECTIBLES = [
         pygame.display.flip()
 
 ```
-The `COLLECTIBLES array` shows the location of the collectibles (the coins) that should be collected to win the game. But the game also have a code that does not just give you the flag directly. You must solve the solve the challenge, we must collect the coin in correct order to get the secret flag. The order you collect them matters ast he game tracks this in `player.secret`. When you finish, it checks if your collection order satisfies all the conditions.
+The `COLLECTIBLES array` shows the location of the collectibles (the coins) that should be collected to win the game. But the game also have a code that does not just give you the flag directly. To solve the challenge, we must collect the coin in correct order to get the secret flag. The order you collect them matters as the game tracks this in `player.secret` function. When you finish, it checks if your collection order satisfies all the conditions.
 
 For example in Level 1, if you label collectibles 0-5:
 `You must collect #0 after #2, #1 before #4 and #2 after #5.`
 
-If the order is incorrect, the flag wont be decrypted.
+If the order is incorrect, the game will not generate the correct key to decrypt the flag.
 
-Hence, I just build a script to help me beat the game in the correct order and decrypt the flag.
+Hence, I just build a script to help me find the correct collection order in order to get the key and decrypt the flag.
 
 ```python
 from itertools import permutations
